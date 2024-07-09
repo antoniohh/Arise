@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow:
+
+# Site Map Definition
+# Sitemap: https://www.antoniohorrillo.com/sitemap.xml
+
+# Que tipo de URL deseamos mostrar
+host: https://www.antoniohorrillo.com/

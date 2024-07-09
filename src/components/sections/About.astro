@@ -1,0 +1,20 @@
+---
+import Section from "../Section.astro"
+
+import { basics } from "@cv"
+const { summary } = basics
+---
+
+<Section title="Sobre mí">
+    {
+      summary.split(/(?<=\.)/g).map((sum) => (
+      <p>{sum}</p>
+      ))
+    }
+</Section>
+
+<style>
+p {
+  text-align: justify;
+}
+</style>

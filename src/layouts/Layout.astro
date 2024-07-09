@@ -1,0 +1,222 @@
+---
+import { basics } from "@cv"
+
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
+
+const { image2, summary, url, name } = basics
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{title}</title>
+    <meta name="description" content={summary} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico?" />
+    <link rel="preload" as="image" href={image2} />
+    <!-- SEO -->
+    <meta name="keywords" content="CV Resume" {name}>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Copyright (C) 2024 {name}">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico?"  />
+    <link rel="canonical" href={url} />
+    <meta name="theme-color" content="#FAF2ED">
+    <meta name="msapplication-TileColor" content="#FAF2ED" />
+    <link type="text/plain" rel="author" href="humans.txt" />
+    <!-- OPEN GRAPH -->
+    <meta property="og:url" content={url} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={summary} />
+    <meta property="og:image" content={image2} />
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
+    <meta property="twitter:url" content={url} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={summary} />
+    <meta name="twitter:image" content={image2} />
+    <!-- Inicio de Datos Estructurados -->
+    <script is:inline type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "CV " {name},
+        "author": {name},
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": {url}
+        },
+        "datePublished": "31 July, 2024",
+        "dateModified": "31 July, 2024",
+        "image": {
+          "@type": "imageObject",
+          "url": {image2},
+          "height": "1200",
+          "width": "630"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": {name},
+          "logo": {
+            "@type": "ImageObject",
+            "url": {image2}
+          }
+        }
+      }
+    </script>
+	  <!-- Fin de Datos Estructurados -->
+    <!-- GA Default -->
+    <script is:inline type="text/javascript"> 
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+      });
+    </script>
+    <!-- end of GA Default-->
+    <!-- Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-FDZ45GZJ4R"></script>
+    <script is:inline type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FDZ45GZJ4R');
+    </script>
+    <!-- end of Analytics-->
+    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script is:inline src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
+    <script is:inline type="text/javascript" charset="UTF-8">
+      document.addEventListener('DOMContentLoaded', function () {
+        cookieconsent.run({
+          "notice_banner_type":"simple",
+          "consent_type":"express",
+          "palette":"light",
+          "language":"es",
+          "page_load_consent_levels":["strictly-necessary"],
+          "notice_banner_reject_button_hide":false,
+          "preferences_center_close_button_hide":false,
+          "page_refresh_confirmation_buttons":false,
+          "website_privacy_policy_url":"http://blog.antoniohorrillo.com/politica-de-privacidad/",
+          "website_name":"antoniohorrillo.com",
+          "callbacks": {
+            "scripts_specific_loaded": (level) => {
+              switch(level) {
+                case 'tracking':
+                  gtag('consent', 'update', {
+                    'ad_storage': 'granted',
+                    'ad_user_data': 'granted',
+                    'ad_personalization': 'granted',
+                    'analytics_storage': 'granted'
+                  });
+                  break;
+              }
+            }
+          },
+          "callbacks_force": true
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  html {
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      "Courier New",
+      Courier,
+      monospace;
+    background: #fff;
+    letter-spacing: -0.025rem;
+  }
+
+  body,
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  .print {
+    display: none !important;
+  }
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+
+    .print {
+      display: block !important;
+    }
+
+    astro-dev-toolbar {
+      display: none !important;
+    }
+
+    article {
+      break-inside: avoid;
+    }
+  }
+</style>

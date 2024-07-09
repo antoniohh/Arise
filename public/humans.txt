@@ -1,0 +1,15 @@
+CV Antonio Horrillo
+Location: Badajoz (Spain)
+Site: https://www.antoniohorrillo.com/
+
+/* TEAM */
+Webmaster: Antonio Horrillo
+Contact: info [at] antoniohorrillo.com
+Twitter: [at] tuanhorrillo
+
+/* SITE */
+Last update: 2024/07/07
+Language: Castellano
+Standards: HTML5, CSS3, Javascript
+Components: Astro
+Software: Visual Studio Code, Gimp

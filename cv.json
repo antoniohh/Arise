@@ -1,0 +1,598 @@
+{
+  "basics": {
+    "name": "Antonio Horrillo Horrillo",
+    "label": "Técnico Superior en Desarrollo de Aplicaciones Web",
+    "image": "/img/me.webp",
+    "image2": "/img/me.jpg",
+    "email": "info@antoniohorrillo.com",
+    "phone": "+34 666123456",
+    "url": "https://www.antoniohorrillo.com",
+    "summary": "Me apasionan las nuevas tecnologías y en especial la informática, tanto el mantenimiento de hardware, como el desarrollo de aplicaciones, porque es una disciplina en evolución constante. Es lo que más me motiva, estudiar una disciplina que está en constante renovación y trabajar en proyectos relacionados con mis estudios y mi experiencia laboral.",
+    "location": {
+      "address": "",
+      "postalCode": "06008",
+      "city": "Badajoz",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "antoniohh",
+        "url": "https://www.linkedin.com/in/antoniohh/"
+      },
+      {
+        "network": "X",
+        "username": "tuanhorrillo",
+        "url": "https://twitter.com/tuanhorrillo/"
+      },
+      {
+        "network": "GitHub",
+        "username": "antoniohh",
+        "url": "https://github.com/antoniohh/"
+      },
+      {
+        "network": "Facebook",
+        "username": "tuanhorrillo",
+        "url": "https://www.facebook.com/tuanhorrillo/"
+      },
+      {
+        "network": "Instagram",
+        "username": "tuanhorrillo",
+        "url": "https://www.instagram.com/tuanhorrillo/"
+      },
+      {
+        "network": "Youtube",
+        "username": "tuanbyte",
+        "url": "https://www.youtube.com/tuanbyte/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CORPORACION DE MEDIOS DE EXTREMADURA, S.A.",
+      "position": "Webmaster",
+      "url": "https://www.hoy.es",
+      "startDate": "2016-11-01",
+      "endDate": null,
+      "summary": "Funciones de Webmaster, soporte a HOY.es, Hiperlocales, Marketing, Redacción y desarrollo de apps externas. Herrammientas: Méthode, Wordpress, Magento, GAM, SFMC, Arena, Marfeel, Evolok, Gygia, Jenkins, Bitbucket, Confluence, Jira, SEO, Adobe Analytics, Adobe Cloud, GA4, GSC, ADS FB+IG+TW.",
+      "highlights": [
+        "Vocento"
+      ]
+    },
+    {
+      "name": "IBERMATICA S.A.",
+      "position": "FCT Dev",
+      "url": "https://www.ayesa.com/",
+      "startDate": "2015-09-01",
+      "endDate": "2015-12-01",
+      "summary": "Funciones de Desarrollador en Java, EJB, Servlet, JavaBeans, DAO, PL/SQL, VB .Net, WebLogic, JDeveloper, SQL Developer, Eclipse y Subversion.",
+      "highlights": [
+        "Prácticas del Grado Superior."
+      ]
+    },
+    {
+      "name": "CLÍNICA ODONTOLÓGICA DR REBOLLO S.L.",
+      "position": "Auxiliar de clínica",
+      "startDate": "2012-02-01",
+      "endDate": "2013-07-01",
+      "summary": "Funciones de atención al paciente, gestión de agenda, administrativas (facturas y presupuestos), informáticas (configuración de Gesden y Dbswin).",
+      "highlights": [
+        "Clínica Odontológica"
+      ]
+    },
+    {
+      "name": "TUAN-BYTE S.L.",
+      "position": "Administrador",
+      "startDate": "2005-11-01",
+      "endDate": "2009-11-01",
+      "summary": "Funciones de Reparación de equipos, configuración de redes, administración de sistemas y mantenimiento a empresas. Franquiciado de APP Informática. Gestión de pedidos, contabilidad, garantías, incidencias, SAT y RMA.",
+      "highlights": [
+        "Franquicia de APP Informática."
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "IES Albarregas",
+    "url": "https://sites.google.com/iesalbarregas.es/fpeneliesalbarregas/fp-a-distancia",
+    "area": "TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES WEB",
+    "studyType": "Grado Superior",
+    "startDate": "2013-09-01",
+    "endDate": "2015-12-01",
+    "score": "4.0",
+    "courses": [
+      "Sistemas informáticos. Bases de datos. Programación. Lenguajes de marcas y sistemas de gestión de información. Entornos de desarrollo. Formación y orientación laboral. Desarrollo web en entorno cliente. Desarrollo web en entorno servidor. Despliegue de aplicaciones web. Diseño de interfaces WEB. Empresa e iniciativa emprendedora. Formación en centros de trabajo. Proyecto de desarrollo de aplicaciones web."
+    ]
+    },
+    {
+    "institution": "EIA Universidad de Extremadura",
+    "url": "https://www.unex.es/",
+    "area": "INGENIERÍA TÉCNICA AGRÍCOLA",
+    "studyType": "Ingeniería Técnica",
+    "startDate": "2005-09-01",
+    "endDate": null,
+    "score": "4.0",
+    "courses": [
+      ""
+    ]
+    }
+  ],
+  "certificates": [
+    {
+    "name": "Diploma Master en Scrum",
+    "date": "2021-12-09",
+    "issuer": "Theuncoding",
+    "url": "https://theuncoding.com/verificar-certificado/?code=605-163-907-7460"
+    },
+    {
+      "name": "Perfeccionamiento de Java",
+      "date": "2016-06-01",
+      "issuer": "EII Universidad de Extremadura",
+      "url": "https://www.unex.es/"
+    },   
+    {
+      "name": "Perfeccionamiento de Android",
+      "date": "2016-09-01",
+      "issuer": "EII Universidad de Extremadura",
+      "url": "https://www.unex.es/"
+    },
+    {
+      "name": "Introducción al Desarrollo Web",
+      "date": "2015-12-01",
+      "issuer": "Instituto de Economía Internacional de la Universitat d’Alacant (UA)",
+      "url": "https://iei.ua.es/"
+    },
+    {
+      "name": "Productividad Personal en la Era Digital",
+      "date": "2015-11-01",
+      "issuer": "Fundación Santa María la Real",
+      "url": "https://areaempleofsmlr.es/"
+    },
+    {
+      "name": "Programación de apps Móviles",
+      "date": "2015-11-01",
+      "issuer": "Universidad Complutense de Madrid",
+      "url": "https://www.ucm.es/"
+    },
+    {
+      "name": "Comunicación de ordenadores y Redes Locales",
+      "date": "2000-10-01",
+      "issuer": "Plan FIP de la Junta de Extremadura",
+      "url": "https://www.juntaex.es/temas/educacion"
+    }
+],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "NodeJS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "AstroJS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "web framework"
+      ]
+    },
+    {
+      "name": "Php",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Composer",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Package Manager"
+      ]
+    },    
+    {
+      "name": "Symfony",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Framework PHP"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Java SE"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Bitbucket",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },   
+    {
+      "name": "Android",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Mobile"
+      ]
+    },
+    {
+      "name": "Arduino",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo IOT"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Avanzado",
+      "keywords": [
+        "Sistema Operativo GNU Linux"
+      ]
+    },
+    {
+      "name": "Adobe",
+      "level": "Avanzado",
+      "keywords": [
+        "Familia de Productos Abobe Cloud"
+      ]
+    }, 
+    {
+      "name": "Salesforce",
+      "level": "Avanzado",
+      "keywords": [
+        "Salesforce Marketing Cloud"
+      ]
+    },
+    {
+      "name": "Jira",
+      "level": "Avanzado",
+      "keywords": [
+        "gestión de proyectos", "backlogs"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "projects": [
+    {
+      "name": "Proyecto AutEne",
+      "isActive": false,
+      "description": "La aplicación consiste en una solución de cálculo del autoconsumo de energía eléctrica mediante instalaciones fotovoltaicas en viviendas aisladas de la red.",
+      "image": "/img/autene.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "jQuery",
+        "JS",
+        "MySQL"
+      ],
+      "url": "http://autene.antoniohorrillo.com/control"
+    },
+    {
+      "name": "Proyecto Nara",
+      "isActive": false,
+      "description": "El dispositivo Nodemcu esp8266 programado de forma que realiza peticiones HTTP POST, enviando y recibiendo JSON, de una API desplegada como un servicio web.",
+      "image": "/img/nara.webp",
+      "highlights": [
+        "Web",
+        "IOT",
+        "Android",
+        "Java",
+        "PHP",
+        "MySQL"
+      ],
+      "url": "http://blog.antoniohorrillo.com/nodemcu02/"
+    },
+    {
+      "name": "Proyecto Phopi",
+      "isActive": false,
+      "description": "App Web para el control de puertos Gpio, Phopi (Php Orange Pi). Configuración del servidor LAMP en el dispositivo Orange Pi PC, git, make y gcc, Gpio con las librerías compiladas WiringOP.",
+      "image": "/img/phopi.webp",
+      "highlights": [
+        "Web",
+        "IOT",
+        "PHP",
+        "JS"
+      ],
+      "url": "http://blog.antoniohorrillo.com/iotopi02/",
+      "github": "https://github.com/antoniohh/Phopi"
+    },
+    {
+      "name": "Proyecto Led4Serial",
+      "isActive": false,
+      "description": "Aplicación Java para controlar un Arduino. Mediante el puerto serie, librería jssc, se conecta a un dispositivo Arduino, permitiendo activar cuatro leds, conmutando las salidas digitales de `LOW` a `HIGH`.",
+      "image": "/img/led4serial.webp",
+      "highlights": [
+        "Java",
+        "IOT"
+      ],
+      "url": "http://blog.antoniohorrillo.com/iotard02/",
+      "github": "https://github.com/antoniohh/Led4Serial"
+    },
+    {
+      "name": "Proyecto Trogol",
+      "isActive": false,
+      "description": "Trogol es un juego en Java. Conducimos al trogol para comerse las hamburguesas disponibles en el panel, las cuales le aumentan la energía de forma aleatoria, evitando asi mismo ser comido por los fantasmas.",
+      "image": "/img/trogol.webp",
+      "highlights": [
+        "Java",
+        "SQLite"
+      ],
+      "url": "https://github.com/antoniohh/Trogol/",
+      "github": "https://github.com/antoniohh/Trogol/"
+    },
+    {
+      "name": "Proyecto DevAge",
+      "isActive": false,
+      "description": "DevAge es una App Android escrita en Java. La finalidad de la aplicación es la creación de una red de desarrolladores de diferentes especialidades, compartiendo un mismo interes común, facilitando la comunicación entre ellos.",
+      "image": "/img/devage.webp",
+      "highlights": [
+        "Java",
+        "Android",
+        "MySQL"
+      ],
+      "url": "http://blog.antoniohorrillo.com/appdev03/",
+      "github": "https://github.com/antoniohh/DevAge"
+    },    
+    {
+      "name": "Proyecto Fulcrum",
+      "isActive": true,
+      "description": "Aplicación para generar las facturas de la Renta y Consumos derivadas de la actividad de Alquiler de Locales. Damos de alta el propietrario, los clientes, y las facturas mensuales, generando el PDF y enviandolas por email.",
+      "image": "/img/fulcrum.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Proyecto Voltio",
+      "isActive": true,
+      "description": "El proyecto Voltio consta de una landing pública para consultar los datos del PVPC de red eléctrica, en php con el framework Symfony 6 y una api para devolver la información en json de los módulos.",
+      "image": "/img/voltio.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony"
+      ],
+      "url": "https://www.hoy.es/economia/precio-luz/"
+    },
+    {
+      "name": "Proyecto Padme",
+      "isActive": true,
+      "description": "Permite la subida de portadas del medio, tanto en formato PDF como JPG, generando una url única, la cual puede ser accedida desde internet, compartida en redes sociales o whatsapp.",
+      "image": "/img/padme.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "MySQL"
+      ],
+      "url": "https://portada.hoy.es/"
+    },
+    {
+      "name": "Proyecto Rodeo",
+      "isActive": true,
+      "description": "Aplicación Java para generar las tarifas pdf de los Hiperlocales del Diario HOY. La aplicación forma parte del proyecto de la Red de Hiperlocales del Diario HOY.",
+      "image": "/img/rodeo.webp",
+      "highlights": [
+        "Java",
+        "FTP"
+      ]
+    },
+    {
+      "name": "Proyecto Previsiones",
+      "isActive": true,
+      "description": "Desarrollo para redacción que gestiona las previsiones de noticias a redactar, por temas organizativos de la propia redacción. Se añaden los contenidos y se exporta en PDF.",
+      "image": "/img/previsiones.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "React",
+        "LDAP",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Proyecto Quién es Quién",
+      "isActive": true,
+      "description": "El proyecto es una iniciativa conjunta entre San Telmo Business School y el Diario HOY para mantener un directorio empresarial actualizado de carácter regional en Extremadura, clasificado por sectores.",
+      "image": "/img/wow.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "React",
+        "MySQL"
+      ],
+      "url": "https://quienesquien.hoy.es/"
+    },
+    {
+      "name": "Proyecto Dehesa",
+      "isActive": true,
+      "description": "Dehesa es una Api con backend que gestiona la publicación en el frontal de hoy.es los módulos de la lonja en columna C y las paginas de la lonja en el externo de HOYAgro.",
+      "image": "/img/dehesa.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "React",
+        "LDAP",
+        "MySQL"
+      ],
+      "url": "https://www.hoy.es/agro/lonja/"
+    },
+    {
+      "name": "Proyecto Ensalsa",
+      "isActive": true,
+      "description": "Ensalsa es un backend que gestiona la base de datos de Bares y Restaurantes del proyecto Ensalsa. Almacena datos de la sociedad, valoraciones, recomendaciones y críticas.",
+      "image": "/img/ensalsa.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "MySQL"
+      ],
+      "url": "https://www.hoy.es/ensalsa/bares-y-restaurantes/"
+    },
+    {
+      "name": "Proyecto Hiperlocales",
+      "isActive": true,
+      "description": "La app Hiperlocales es un backoffice que tiene la función de gestionar la red de hiperlocales, consultar publicaciones a krammer, análisis de audiencias y manejo de otros datos del medio.",
+      "image": "/img/hiperlocales.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "MySQL"
+      ],
+      "url": "https://www.hoy.es/extremadura/hiperlocales/"
+    },
+    {
+      "name": "Proyecto Kronos",
+      "isActive": true,
+      "description": "Kronos es una Api con backend que gestiona la publicación de módulos automáticos que luego insertamos en Méthode en distintas subportadas de HOY.es e hiperlocales.",
+      "image": "/img/kronos.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Proyecto Aimos",
+      "isActive": true,
+      "description": "La aplicación Aimos tiene la función de gestionar otras aplicaciones externas, tiene una API para soporte de login a Newspaint, y un backend con apps internas, como Portadas, PPLLs, El Tiempo, Uploader y elementos de Evolok.",
+      "image": "/img/aimos.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Landing Premios Ensalsa",
+      "isActive": false,
+      "description": "Landing inicial de portal PremiosEnsalsa. Concurso de Ensalsa, portal gastronómico de Extremadura.",
+      "image": "/img/premiosensalsa.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS"
+      ],
+      "url": "https://premiosensalsa.es/"
+    },
+    {
+      "name": "Proyecto Social",
+      "isActive": true,
+      "description": "HOY Social tiene la función de gestionar las publicaciones de noticas en Redes Sociales FB + IG. Registra las publicaciones realizadas, obtiene las noticias publicadas, y mantiene un histórico.",
+      "image": "/img/social.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Proyecto Formación",
+      "isActive": false,
+      "description": "Backend de los cursos de formacion Periodismo y Marketing impartidos por HOY.es. Gestión de los alumnos y materiales educativos para descargar.",
+      "image": "/img/formacion.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "SQLite"
+      ]
+    }
+  ]
+}

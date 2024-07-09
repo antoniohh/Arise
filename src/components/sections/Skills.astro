@@ -1,0 +1,87 @@
+---
+import Section from "../Section.astro"
+import HTML from "@/icons/html.astro"
+import CSS from "@/icons/css.astro"
+import JavaScript from "@/icons/javascript.astro"
+import TypeScript from "@/icons/type.astro"
+import React from "@/icons/react.astro"
+import NodeJS from "@/icons/node.astro"
+import AstroJS from "@/icons/astro.astro"
+import MySQL from "@/icons/sql.astro"
+import Git from "@/icons/git.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Php from "@/icons/php.astro"
+import Composer from "@/icons/composer.astro"
+import Symfony from "@/icons/symfony.astro"
+import Java from "@/icons/java.astro"
+import Android from "@/icons/android.astro"
+import Arduino from "@/icons/arduino.astro"
+import Linux from "@/icons/linux.astro"
+import Adobe from "@/icons/adobe.astro"
+import Salesforce from "@/icons/salesforce.astro"
+import Jira from "@/icons/jira.astro"
+import Bitbucket from "@/icons/bitbucket.astro"
+import { skills } from "@cv"
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  NodeJS,
+  AstroJS,
+  MySQL,
+  Git,
+  GitHub,
+  Php,
+  Composer,
+  Symfony,
+  Java,
+  Android,
+  Arduino,
+  Linux,
+  Adobe,
+  Salesforce,
+  Jira,
+  Bitbucket
+
+}
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        let iconName = name === "GNULinux" ? "Linux" : name
+        const Icon = SKILLS_ICONS[iconName]
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>
