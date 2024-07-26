@@ -6,8 +6,32 @@ interface Props {
 }
 
 const { title } = Astro.props
+const { image, image2, summary, url, name, label, email, phone, location } = basics
+const {address, postalCode, city, countryCode, region} = location
+const urlimage2 = url+image2
 
-const { image2, summary, url, name } = basics
+let schema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": countryCode,
+    "postalCode": postalCode,
+    "streetAddress": address
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": label
+  },
+  "email": email,
+  "image": url+image2,
+  "jobTitle": label,
+  "name": name,
+  "nationality": region,
+  "telephone": phone,
+  "url": url
+};
 ---
 
 <!doctype html>
@@ -17,16 +41,16 @@ const { image2, summary, url, name } = basics
     <title>{title}</title>
     <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico?" />
-    <link rel="preload" as="image" href={image2} />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="preload" as="image" href={image} />
     <!-- SEO -->
-    <meta name="keywords" content="CV Resume" {name}>
+    <meta name="keywords" content="CV, Resume">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Copyright (C) 2024 {name}">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico?"  />
+    <meta name="author" content={`Copyright (C) 2024 ${name}`}>
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico"  />
     <link rel="canonical" href={url} />
-    <meta name="theme-color" content="#FAF2ED">
-    <meta name="msapplication-TileColor" content="#FAF2ED" />
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff" />
     <link type="text/plain" rel="author" href="humans.txt" />
     <!-- OPEN GRAPH -->
     <meta property="og:url" content={url} />
@@ -34,43 +58,16 @@ const { image2, summary, url, name } = basics
     <meta property="og:locale" content="es_ES" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={summary} />
-    <meta property="og:image" content={image2} />
+    <meta property="og:image" content={urlimage2} />
     <!-- TWITTER CARD -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
     <meta property="twitter:url" content={url} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={summary} />
-    <meta name="twitter:image" content={image2} />
+    <meta name="twitter:image" content={urlimage2} />
     <!-- Inicio de Datos Estructurados -->
-    <script is:inline type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "headline": "CV " {name},
-        "author": {name},
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": {url}
-        },
-        "datePublished": "31 July, 2024",
-        "dateModified": "31 July, 2024",
-        "image": {
-          "@type": "imageObject",
-          "url": {image2},
-          "height": "1200",
-          "width": "630"
-        },
-        "publisher": {
-          "@type": "Person",
-          "name": {name},
-          "logo": {
-            "@type": "ImageObject",
-            "url": {image2}
-          }
-        }
-      }
-    </script>
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({schema})}></script>
 	  <!-- Fin de Datos Estructurados -->
     <!-- GA Default -->
     <script is:inline type="text/javascript"> 

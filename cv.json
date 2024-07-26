@@ -3,7 +3,7 @@
     "name": "Antonio Horrillo Horrillo",
     "label": "Técnico Superior en Desarrollo de Aplicaciones Web",
     "image": "/img/me.webp",
-    "image2": "/img/me.jpg",
+    "image2": "/img/rrss.jpg",
     "email": "info@antoniohorrillo.com",
     "phone": "+34 666123456",
     "url": "https://www.antoniohorrillo.com",
@@ -329,7 +329,7 @@
   }],
   "projects": [
     {
-      "name": "Proyecto AutEne",
+      "name": "AutEne",
       "isActive": false,
       "description": "La aplicación consiste en una solución de cálculo del autoconsumo de energía eléctrica mediante instalaciones fotovoltaicas en viviendas aisladas de la red.",
       "image": "/img/autene.webp",
@@ -340,10 +340,10 @@
         "JS",
         "MySQL"
       ],
-      "url": "http://autene.antoniohorrillo.com/control"
+      "url": "https://web.archive.org/web/20221002032415/http://autene.antoniohorrillo.com/control"
     },
     {
-      "name": "Proyecto Nara",
+      "name": "Nara",
       "isActive": false,
       "description": "El dispositivo Nodemcu esp8266 programado de forma que realiza peticiones HTTP POST, enviando y recibiendo JSON, de una API desplegada como un servicio web.",
       "image": "/img/nara.webp",
@@ -358,7 +358,7 @@
       "url": "http://blog.antoniohorrillo.com/nodemcu02/"
     },
     {
-      "name": "Proyecto Phopi",
+      "name": "Phopi",
       "isActive": false,
       "description": "App Web para el control de puertos Gpio, Phopi (Php Orange Pi). Configuración del servidor LAMP en el dispositivo Orange Pi PC, git, make y gcc, Gpio con las librerías compiladas WiringOP.",
       "image": "/img/phopi.webp",
@@ -372,7 +372,7 @@
       "github": "https://github.com/antoniohh/Phopi"
     },
     {
-      "name": "Proyecto Led4Serial",
+      "name": "Led4Serial",
       "isActive": false,
       "description": "Aplicación Java para controlar un Arduino. Mediante el puerto serie, librería jssc, se conecta a un dispositivo Arduino, permitiendo activar cuatro leds, conmutando las salidas digitales de `LOW` a `HIGH`.",
       "image": "/img/led4serial.webp",
@@ -384,7 +384,7 @@
       "github": "https://github.com/antoniohh/Led4Serial"
     },
     {
-      "name": "Proyecto Trogol",
+      "name": "Trogol",
       "isActive": false,
       "description": "Trogol es un juego en Java. Conducimos al trogol para comerse las hamburguesas disponibles en el panel, las cuales le aumentan la energía de forma aleatoria, evitando asi mismo ser comido por los fantasmas.",
       "image": "/img/trogol.webp",
@@ -396,7 +396,7 @@
       "github": "https://github.com/antoniohh/Trogol/"
     },
     {
-      "name": "Proyecto DevAge",
+      "name": "DevAge",
       "isActive": false,
       "description": "DevAge es una App Android escrita en Java. La finalidad de la aplicación es la creación de una red de desarrolladores de diferentes especialidades, compartiendo un mismo interes común, facilitando la comunicación entre ellos.",
       "image": "/img/devage.webp",
@@ -409,7 +409,7 @@
       "github": "https://github.com/antoniohh/DevAge"
     },    
     {
-      "name": "Proyecto Fulcrum",
+      "name": "Fulcrum",
       "isActive": true,
       "description": "Aplicación para generar las facturas de la Renta y Consumos derivadas de la actividad de Alquiler de Locales. Damos de alta el propietrario, los clientes, y las facturas mensuales, generando el PDF y enviandolas por email.",
       "image": "/img/fulcrum.webp",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "name": "Proyecto Voltio",
+      "name": "Voltio",
       "isActive": true,
       "description": "El proyecto Voltio consta de una landing pública para consultar los datos del PVPC de red eléctrica, en php con el framework Symfony 6 y una api para devolver la información en json de los módulos.",
       "image": "/img/voltio.webp",
@@ -435,7 +435,7 @@
       "url": "https://www.hoy.es/economia/precio-luz/"
     },
     {
-      "name": "Proyecto Padme",
+      "name": "Padme",
       "isActive": true,
       "description": "Permite la subida de portadas del medio, tanto en formato PDF como JPG, generando una url única, la cual puede ser accedida desde internet, compartida en redes sociales o whatsapp.",
       "image": "/img/padme.webp",
@@ -446,10 +446,10 @@
         "Symfony",
         "MySQL"
       ],
-      "url": "https://portada.hoy.es/"
+      "url": "https://portada.hoy.es/1720730996279"
     },
     {
-      "name": "Proyecto Rodeo",
+      "name": "Rodeo",
       "isActive": true,
       "description": "Aplicación Java para generar las tarifas pdf de los Hiperlocales del Diario HOY. La aplicación forma parte del proyecto de la Red de Hiperlocales del Diario HOY.",
       "image": "/img/rodeo.webp",
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "name": "Proyecto Previsiones",
+      "name": "Previsiones",
       "isActive": true,
       "description": "Desarrollo para redacción que gestiona las previsiones de noticias a redactar, por temas organizativos de la propia redacción. Se añaden los contenidos y se exporta en PDF.",
       "image": "/img/previsiones.webp",
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "name": "Proyecto Quién es Quién",
+      "name": "Quién es Quién",
       "isActive": true,
       "description": "El proyecto es una iniciativa conjunta entre San Telmo Business School y el Diario HOY para mantener un directorio empresarial actualizado de carácter regional en Extremadura, clasificado por sectores.",
       "image": "/img/wow.webp",
@@ -489,7 +489,7 @@
       "url": "https://quienesquien.hoy.es/"
     },
     {
-      "name": "Proyecto Dehesa",
+      "name": "Dehesa",
       "isActive": true,
       "description": "Dehesa es una Api con backend que gestiona la publicación en el frontal de hoy.es los módulos de la lonja en columna C y las paginas de la lonja en el externo de HOYAgro.",
       "image": "/img/dehesa.webp",
@@ -505,7 +505,7 @@
       "url": "https://www.hoy.es/agro/lonja/"
     },
     {
-      "name": "Proyecto Ensalsa",
+      "name": "Ensalsa",
       "isActive": true,
       "description": "Ensalsa es un backend que gestiona la base de datos de Bares y Restaurantes del proyecto Ensalsa. Almacena datos de la sociedad, valoraciones, recomendaciones y críticas.",
       "image": "/img/ensalsa.webp",
@@ -519,7 +519,7 @@
       "url": "https://www.hoy.es/ensalsa/bares-y-restaurantes/"
     },
     {
-      "name": "Proyecto Hiperlocales",
+      "name": "Hiperlocales",
       "isActive": true,
       "description": "La app Hiperlocales es un backoffice que tiene la función de gestionar la red de hiperlocales, consultar publicaciones a krammer, análisis de audiencias y manejo de otros datos del medio.",
       "image": "/img/hiperlocales.webp",
@@ -533,7 +533,7 @@
       "url": "https://www.hoy.es/extremadura/hiperlocales/"
     },
     {
-      "name": "Proyecto Kronos",
+      "name": "Kronos",
       "isActive": true,
       "description": "Kronos es una Api con backend que gestiona la publicación de módulos automáticos que luego insertamos en Méthode en distintas subportadas de HOY.es e hiperlocales.",
       "image": "/img/kronos.webp",
@@ -546,7 +546,7 @@
       ]
     },
     {
-      "name": "Proyecto Aimos",
+      "name": "Aimos",
       "isActive": true,
       "description": "La aplicación Aimos tiene la función de gestionar otras aplicaciones externas, tiene una API para soporte de login a Newspaint, y un backend con apps internas, como Portadas, PPLLs, El Tiempo, Uploader y elementos de Evolok.",
       "image": "/img/aimos.webp",
@@ -559,7 +559,7 @@
       ]
     },
     {
-      "name": "Landing Premios Ensalsa",
+      "name": "Premios Ensalsa",
       "isActive": false,
       "description": "Landing inicial de portal PremiosEnsalsa. Concurso de Ensalsa, portal gastronómico de Extremadura.",
       "image": "/img/premiosensalsa.webp",
@@ -571,7 +571,7 @@
       "url": "https://premiosensalsa.es/"
     },
     {
-      "name": "Proyecto Social",
+      "name": "Social",
       "isActive": true,
       "description": "HOY Social tiene la función de gestionar las publicaciones de noticas en Redes Sociales FB + IG. Registra las publicaciones realizadas, obtiene las noticias publicadas, y mantiene un histórico.",
       "image": "/img/social.webp",
@@ -583,7 +583,7 @@
       ]
     },
     {
-      "name": "Proyecto Formación",
+      "name": "Formación",
       "isActive": false,
       "description": "Backend de los cursos de formacion Periodismo y Marketing impartidos por HOY.es. Gestión de los alumnos y materiales educativos para descargar.",
       "image": "/img/formacion.webp",
@@ -593,6 +593,118 @@
         "JS",
         "SQLite"
       ]
+    },
+    {
+      "name": "Tienda3",
+      "isActive": true,
+      "description": "Landing principal de la tienda de compra de suscripciones del Diario HOY. Desarrollada en HTML y CSS y pasada a producción con Magento.",
+      "image": "/img/tienda3.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Magento"
+      ],
+      "url": "https://areapersonal.hoy.es/suscripcion/"
+    },
+    {
+      "name": "Extremadura",
+      "isActive": false,
+      "description": "Landing de la Promoción del Día de Extremadura 2022 para comprar una suscripción al Diario HOY. Se genera en HTML y CSS personalizados, a partir de los estilos de la web de HOY. Se pasan a producción en un módulo CMS de Magento.",
+      "image": "/img/diaextremadura.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Magento"
+      ],
+      "url": "https://areapersonal.hoy.es/suscripcion/h1x0-diaextre-on-1m-cap-hoy.html"
+    },
+    {
+      "name": "Mixto",
+      "isActive": true,
+      "description": "Landing de la Promoción Mes Gratis para comprar una suscripción al Diario HOY. Se genera en HTML y CSS personalizados, a partir de los estilos de la web de HOY. Se pasan a producción en un módulo CMS de Magento.",
+      "image": "/img/mixto.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Magento"
+      ],
+      "url": "https://areapersonal.hoy.es/suscripcion/1m0e-mixto-on-1m-cap-365d-hoy.html"
+    },
+    {
+      "name": "Evolok",
+      "isActive": true,
+      "description": "Componentes de Evolok que se pintan en el frontal, como Cintillo, Popup o Paywall. Se genera en HTML y CSS personalizados, a partir de los estilos de la web de HOY. Se pasan a producción en la herramienta Evolok.",
+      "image": "/img/evolok.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Evolok"
+      ],
+      "url": "https://www.hoy.es/"
+    },
+    {
+      "name": "Verano",
+      "isActive": false,
+      "description": "Landing de la Promoción de Verano 2023 para comprar una suscripción al Diario HOY. Se genera en HTML y CSS personalizados, a partir de los estilos de la web de HOY. Se pasan a producción en un módulo CMS de Magento.",
+      "image": "/img/verano.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Magento"
+      ],
+      "url": "https://www.hoy.es/"
+    },
+    {
+      "name": "Carnaval",
+      "isActive": false,
+      "description": "Landing de la Promoción de Carnaval 2024 para comprar una suscripción al Diario HOY. Se genera en HTML y CSS personalizados, a partir de los estilos de la web de HOY. Se pasan a producción en un módulo CMS de Magento.",
+      "image": "/img/carnaval.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Magento"
+      ],
+      "url": "https://areapersonal.hoy.es/suscripcion/h2x1-carnav24-on-1m-cap-hoy.html"
+    },
+    {
+      "name": "Navidad",
+      "isActive": false,
+      "description": "Landing de la Promoción de Navidad 2023 para comprar una suscripción al Diario HOY. Se genera en HTML y CSS personalizados, a partir de los estilos de la web de HOY. Se pasan a producción en un módulo CMS de Magento.",
+      "image": "/img/navidad.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Magento"
+      ],
+      "url": "https://areapersonal.hoy.es/suscripcion/h1x12-navi23-on-6m-cap-hoy.html"
+    },
+    {
+      "name": "Elecciones",
+      "isActive": false,
+      "description": "Landing de la Promoción de Elecciones 2023 para comprar una suscripción al Diario HOY. Se genera en HTML y CSS personalizados, a partir de los estilos de la web de HOY. Se pasan a producción en un módulo CMS de Magento.",
+      "image": "/img/elecciones.webp",
+      "highlights": [
+        "Web",
+        "HTML",
+        "CSS",
+        "JS",
+        "Magento"
+      ],
+      "url": "https://areapersonal.hoy.es/suscripcion/h2x1-elecc23-on-1m-cap-hoy.html"
     }
   ]
 }

@@ -1,75 +1,147 @@
-<div align="center">
-    <h2>
-        <em>CV</em> minimalista maquetado para web y pdf
-    </h2>
-    <p>
-    Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
-    </p>
-    <p>
-    Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
-    </p>
-</div>
+# Arise (Versión 1.1.0) 2024
 
-<div align="center">
-    <a href="#🚀-empezar">
-        Empezar
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧞-comandos">
-        Comandos
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🔑-licencia">
-        Licencia
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="https://midu.dev">
-        Personal
-    </a>
-   
-</div>
+Arise es mi página personal, con el contenido de mi CV. Diseñado para web y la immpresion en papel y en pdf de forma directa. Esquema del JSON de CV de jsonresume.org. Desarrollada en Astro a partir de la versión de Midudev.
 
-<div align="center">
+![img-arise](portada.png "Ventana principal de Arise.")
 
-![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/midudev/minimalist-portfolio-json)
-![GitHub issues](https://img.shields.io/github/issues/midudev/minimalist-portfolio-json)
-![GitHub forks](https://img.shields.io/github/forks/midudev/minimalist-portfolio-json)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json)
+Me apasionan las nuevas tecnologías y en especial la informática, tanto el mantenimiento de hardware, como el desarrollo de aplicaciones, porque es una disciplina en evolución constante.
 
-</div>
+Es lo que más me motiva, estudiar una disciplina que está en constante renovación y trabajar en proyectos relacionados con mis estudios y mi experiencia laboral.
 
-## 🛠️ Stack
+La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
-- [**Astro**](https://astro.build/) - El framework web de la nueva época.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+## 🧞 Control de Cambios
 
-## 🚀 Empezar
+### Cambios Versión v1.1.0
 
-### 1. Usa este [repo](https://github.com/midudev/minimalist-portfolio-json) como _template_ de un proyecto de Astro
+* Update: Nuevos proyectos y cambios en en código y Readme.
 
-- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
+### Cambios Versión v1.0.1
+
+* Primer despliegue del proyecto, configuración, y pruebas.
+
+### Primer despliegue v1.0.0
+
+* Primera versión del proyecto v1.0.0.
+
+## 🛠️ Tecnologías utilizadas y Dependencias
+
+### Las tecnologías utilizadas son las siguientes:
+
+* Astro v4.3.2.
+* Node v18.20.4
+* Npm v10.7.0
+* VSCode
+* Gimp
+* Inkscape
+
+### Las dependencias mas importantes son las siguientes:
+
+* Typescript v5.5.2
+* Ninja Keys v0.1.0
+* Mailtoui v1.0.3
+
+## 🚀 Ayuda al desarrollador para poner en marcha el proyecto
+
+### Instalación
+
+* Clonar el repositorio:
 
 ```bash
-# Activa pnpm en MacOS, WSL & Linux:
-corepack enable
-corepack prepare pnpm@latest --activate
-
-# Inicializa el proyecto
-pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
+git clone https://github.com/antoniohh/Arise.git
 ```
 
-### 2. Añade tu contenido:
-Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
-### 3. Lanza el servidor de desarrollo:
+* Instalar las dependencias:
 
 ```bash
-# Disfruta del resultado
-pnpm dev
+npm install
 ```
 
-1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
+* Ponemos a correr nuestra aplicación:
+
+```bash
+npm run dev
+```
+
+* En el navegador:
+
+```bash
+http://localhost:4321/
+```
+
+* Realizamos los cambios, modificaciones o correcciones necesarias. Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
+
+### Empaquetado
+
+* Verificamos la creacion del built y comprobar que todos los procesos de composer son correctos y acaban en OK. Deben estar en `./dist`:
+
+```bash
+npm run build
+```
+
+### Subida a Producción
+
+* Subir a Git propio. Rellenar las XXXXXXXX con el texto que corresponda:
+
+```bash
+git add *
+git commit -m "XXXXXXXX"
+git push origin XXXXXXXX
+```
+
+* Crear los PR de la rama XXXXXXXX a main.
+
+* Identificamos el commit con un nuevo tag.
+
+* Desplegamos con Jenkins en Pro o subimos con el FTP o el sistema que tengamos.
+
+## 🔑 Licencia
+
+[MIT](LICENSE.txt) - Adaptado por [**Antonio Horrillo Horrillo**](https://www.antoniohorrillo.com) y Creado por [**midudev**](https://midu.dev).
+
+Gracias.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🧞 Comandos
 
