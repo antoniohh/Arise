@@ -1,6 +1,6 @@
 # Arise (Versión 1.1.0) 2024
 
-Arise es mi página personal, con el contenido de mi CV. Diseñado para web y la immpresion en papel y en pdf de forma directa. Esquema del JSON de CV de jsonresume.org. Desarrollada en Astro a partir de la versión de Midudev.
+Arise es mi página personal, con el contenido de mi CV. Diseñado para la web y la impresion en papel, o en pdf, de forma directa. Esquema del JSON de CV de jsonresume.org. Desarrollada en Astro a partir de la versión de Midudev.
 
 ![img-arise](portada.png "Ventana principal de Arise.")
 
@@ -73,7 +73,7 @@ http://localhost:4321/
 
 ### Empaquetado
 
-* Verificamos la creacion del built y comprobar que todos los procesos de composer son correctos y acaban en OK. Deben estar en `./dist`:
+* Verificamos la creacion del build y comprobar que todos los procesos de composer son correctos y acaban en OK. Deben estar en `./dist`:
 
 ```bash
 npm run build
@@ -97,60 +97,6 @@ git push origin XXXXXXXX
 
 ## 🔑 Licencia
 
-[MIT](LICENSE.txt) - Adaptado por [**Antonio Horrillo Horrillo**](https://www.antoniohorrillo.com) y Creado por [**midudev**](https://midu.dev).
+[MIT](LICENSE) - Adaptado por [**Antonio Horrillo Horrillo**](https://www.antoniohorrillo.com) y Creado por [**midudev**](https://midu.dev).
 
 Gracias.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 🧞 Comandos
-
-|     | Comando          | Acción                                        |
-| :-- | :--------------- | :-------------------------------------------- |
-| ⚙️  | `dev` o `start` | Lanza un servidor de desarrollo local en  `localhost:4321`.  |
-| ⚙️  | `build`          | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
-| ⚙️  | `preview`        | Vista previa en local `localhost:4321` |
-
-## 🔑 Licencia
-
-[MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
