@@ -2,12 +2,12 @@
 import { basics } from "@cv"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
-import Phone from "@/icons/Phone.astro"
 import X from "@/icons/X.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import Facebook from "@/icons/facebook.astro"
 import Instagram from "@/icons/instagram.astro"
 import Youtube from "@/icons/youtube.astro"
+import News from "@/icons/News.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
@@ -21,7 +21,8 @@ const SOCIAL_ICONS: SocialIcon = {
   X,
   Facebook,
   Instagram,
-  Youtube
+  Youtube,
+  Hoy: News
 }
 
 //const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
@@ -53,18 +54,6 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
               rel="noopener noreferrer"
             >
               <Mail />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a
-              href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
             </a>
           )
         }

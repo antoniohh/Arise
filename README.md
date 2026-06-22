@@ -1,4 +1,12 @@
-# Arise (Versión 1.1.0) 2024
+# Arise (Versión 1.2.0) 2026
+
+![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![Astro](https://img.shields.io/badge/Astro-4.3.2-orange)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Node](https://img.shields.io/badge/Node-v18.20.4-success)
+![HTML](https://img.shields.io/badge/HTML-5-red)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
 
 Arise es mi página personal, con el contenido de mi CV. Diseñado para la web y la impresion en papel, o en pdf, de forma directa. Esquema del JSON de CV de jsonresume.org. Desarrollada en Astro a partir de la versión de Midudev.
 
@@ -12,9 +20,13 @@ La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
 ## 🧞 Control de Cambios
 
-### Cambios Versión v1.1.0
+### Cambios Versión v1.2.0
 
-* Update: Nuevos proyectos y cambios en en código y Readme.
+* Añadido perfil "Hoy" con enlace a publicaciones en Diario HOY.
+* Eliminado icono de teléfono de la sección Hero.
+* Actualizada descripción personal con formación y experiencia profesional.
+* Añadido certificado "Vocento Formación IA" de thePower.
+* Añadida habilidad Angular con icono propio.
 
 ### Cambios Versión v1.0.1
 

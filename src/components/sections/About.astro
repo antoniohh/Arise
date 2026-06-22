@@ -6,11 +6,7 @@ const { summary } = basics
 ---
 
 <Section title="Sobre mí">
-    {
-      summary.split(/(?<=\.)/g).map((sum) => (
-      <p>{sum}</p>
-      ))
-    }
+    <p>{summary}</p>
 </Section>
 
 <style>
