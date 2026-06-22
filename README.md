@@ -1,6 +1,6 @@
-# Arise (Versión 1.2.0) 2026
+# Arise (Versión 1.2.1) 2026
 
-![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![Version](https://img.shields.io/badge/version-1.2.1-blue)
 ![Astro](https://img.shields.io/badge/Astro-4.3.2-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -19,6 +19,10 @@ Es lo que más me motiva, estudiar una disciplina que está en constante renovac
 La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
 ## 🧞 Control de Cambios
+
+### Cambios Versión v1.2.1
+
+* Actulizamos imagen principal, imagen de redes sociales y el icono.
 
 ### Cambios Versión v1.2.0
 
