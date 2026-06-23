@@ -347,6 +347,20 @@
   }],
   "projects": [
     {
+      "name": "Arise",
+      "isActive": true,
+      "description": "Arise es mi página personal, con el contenido de mi CV. Diseñado para la web y la impresion en papel, o en pdf, de forma directa. Esquema del JSON de CV de jsonresume.org. Desarrollada en Astro a partir de la versión de Midudev.",
+      "image": "/img/arise.webp",
+      "highlights": [
+        "Web",
+        "JS",
+        "TS",
+        "Astro"
+      ],
+      "url": "http://www.antoniohorrillo.com/",
+      "github": "https://github.com/antoniohh/Arise"
+    },
+    {
       "name": "Fulcrum",
       "isActive": true,
       "description": "Aplicación para generar las facturas de la Renta y Consumos derivadas de la actividad de Alquiler de Locales. Damos de alta el propietrario, los clientes, y las facturas mensuales, generando el PDF y enviandolas por email.",
@@ -357,6 +371,19 @@
         "JS",
         "Symfony",
         "SQLite"
+      ]
+    },
+    {
+      "name": "Hoper",
+      "isActive": true,
+      "description": "Hoper es una aplicación web escrita en Symfony para subir, gestionar y procesar vídeos para redes sociales. Facilita la subida, el seguimiento y notificación al usuario. Trabaja en paralelo con VxN (Python/ffmpeg) para la normalización de vídeo.",
+      "image": "/img/hoper.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony",
+        "MySQL"
       ]
     },
     {

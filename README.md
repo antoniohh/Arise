@@ -1,10 +1,10 @@
-# Arise (Versión 1.2.1) 2026
+# Arise (Versión 1.2.2) 2026
 
-![Version](https://img.shields.io/badge/version-1.2.1-blue)
+![Version](https://img.shields.io/badge/version-1.2.2-blue)
 ![Astro](https://img.shields.io/badge/Astro-4.3.2-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Node](https://img.shields.io/badge/Node-v18.20.4-success)
+![Node](https://img.shields.io/badge/Node-v22.23.0-success)
 ![HTML](https://img.shields.io/badge/HTML-5-red)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 
@@ -19,6 +19,10 @@ Es lo que más me motiva, estudiar una disciplina que está en constante renovac
 La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
 ## 🧞 Control de Cambios
+
+### Cambios Versión v1.2.2
+
+* Añadida nueva app Hoper y cambios menores.
 
 ### Cambios Versión v1.2.1
 
