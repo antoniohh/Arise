@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Astro v4.3.2 personal CV/portfolio website. Data-driven from `cv.json` (jsonresume.org schema). Single-page app, designed for both web and print/PDF output.
+Astro v7.0.2 personal CV/portfolio website. Data-driven from `cv.json` (jsonresume.org schema). Single-page app, designed for both web and print/PDF output.
 
 ## Key Commands
 

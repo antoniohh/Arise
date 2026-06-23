@@ -1,7 +1,7 @@
-# Arise (Versión 1.2.2) 2026
+# Arise (Versión 1.3.0) 2026
 
-![Version](https://img.shields.io/badge/version-1.2.2-blue)
-![Astro](https://img.shields.io/badge/Astro-4.3.2-orange)
+![Version](https://img.shields.io/badge/version-1.3.0-blue)
+![Astro](https://img.shields.io/badge/Astro-7.0.2-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Node](https://img.shields.io/badge/Node-v22.23.0-success)
@@ -19,6 +19,12 @@ Es lo que más me motiva, estudiar una disciplina que está en constante renovac
 La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
 ## 🧞 Control de Cambios
+
+### Cambios Versión v1.3.0
+
+* Actualizado Astro de v4.3.2 a v7.0.2.
+* Corregido icono de Hoy en el teclado (viewBox ajustado).
+* Añadida sección "Noticias Publicadas" en el menú Cmd+K.
 
 ### Cambios Versión v1.2.2
 
@@ -48,8 +54,8 @@ La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
 ### Las tecnologías utilizadas son las siguientes:
 
-* Astro v4.3.2.
-* Node v18.20.4
+* Astro v7.0.2.
+* Node v22.23.0
 * Npm v10.7.0
 * VSCode
 * Gimp
