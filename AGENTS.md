@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Astro v7.0.2 personal CV/portfolio website. Data-driven from `cv.json` (jsonresume.org schema). Single-page app, designed for both web and print/PDF output.
+Astro v7.0.2 personal CV/portfolio website (v1.4.0). Data-driven from `cv.json` (jsonresume.org schema). Single-page app, designed for both web and print/PDF output.
 
 ## Key Commands
 
@@ -18,6 +18,7 @@ Astro v7.0.2 personal CV/portfolio website. Data-driven from `cv.json` (jsonresu
 - **Components:** `src/components/sections/` (Hero, About, Experience, Education, Certificates, Projects, Skills)
 - **Layouts:** `src/layouts/Layout.astro`
 - **Path aliases:** `@cv` → `./cv.json`, `@/*` → `src/*`
+- **Static Assets:** `public/img/` — project preview images in WebP format (16:9 ratio, 1280×720)
 
 ## Development Notes
 
@@ -37,4 +38,5 @@ Astro v7.0.2 personal CV/portfolio website. Data-driven from `cv.json` (jsonresu
 
 - Editing content? Modify `cv.json`, not the components directly
 - New CV sections? Update both `cv.json` AND `src/cv.d.ts` types
+- Project previews? Optimize and store as `.webp` (1280×720) in `public/img/`
 - Adding social networks? Add icon in `src/icons/`, map in `Hero.astro`'s `SOCIAL_ICONS`

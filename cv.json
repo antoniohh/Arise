@@ -97,29 +97,30 @@
       ]
     }
   ],
-  "education": [{
-    "institution": "IES Albarregas",
-    "url": "https://sites.google.com/iesalbarregas.es/fpeneliesalbarregas/fp-a-distancia",
-    "area": "TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES WEB",
-    "studyType": "Grado Superior",
-    "startDate": "2013-09-01",
-    "endDate": "2015-12-01",
-    "score": "4.0",
-    "courses": [
-      "Sistemas informáticos. Bases de datos. Programación. Lenguajes de marcas y sistemas de gestión de información. Entornos de desarrollo. Formación y orientación laboral. Desarrollo web en entorno cliente. Desarrollo web en entorno servidor. Despliegue de aplicaciones web. Diseño de interfaces WEB. Empresa e iniciativa emprendedora. Formación en centros de trabajo. Proyecto de desarrollo de aplicaciones web."
-    ]
+  "education": [
+    {
+      "institution": "IES Albarregas",
+      "url": "https://sites.google.com/iesalbarregas.es/fpeneliesalbarregas/fp-a-distancia",
+      "area": "TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES WEB",
+      "studyType": "Grado Superior",
+      "startDate": "2013-09-01",
+      "endDate": "2015-12-01",
+      "score": "4.0",
+      "courses": [
+        "Sistemas informáticos. Bases de datos. Programación. Lenguajes de marcas y sistemas de gestión de información. Entornos de desarrollo. Formación y orientación laboral. Desarrollo web en entorno cliente. Desarrollo web en entorno servidor. Despliegue de aplicaciones web. Diseño de interfaces WEB. Empresa e iniciativa emprendedora. Formación en centros de trabajo. Proyecto de desarrollo de aplicaciones web."
+      ]
     },
     {
-    "institution": "EIA Universidad de Extremadura",
-    "url": "https://www.unex.es/",
-    "area": "INGENIERÍA TÉCNICA AGRÍCOLA",
-    "studyType": "Ingeniería Técnica",
-    "startDate": "2005-09-01",
-    "endDate": null,
-    "score": "4.0",
-    "courses": [
-      ""
-    ]
+      "institution": "EIA Universidad de Extremadura",
+      "url": "https://www.unex.es/",
+      "area": "INGENIERÍA TÉCNICA AGRÍCOLA",
+      "studyType": "Ingeniería Técnica",
+      "startDate": "2005-09-01",
+      "endDate": null,
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
     }
   ],
   "certificates": [
@@ -130,10 +131,10 @@
       "url": "https://app.thepowermba.com/certificates/69ca637f074210fa03917d85"
     },
     {
-    "name": "Diploma Master en Scrum",
-    "date": "2021-12-09",
-    "issuer": "Theuncoding",
-    "url": "https://theuncoding.com/verificar-certificado/?code=605-163-907-7460"
+      "name": "Diploma Master en Scrum",
+      "date": "2021-12-09",
+      "issuer": "Theuncoding",
+      "url": "https://theuncoding.com/verificar-certificado/?code=605-163-907-7460"
     },
     {
       "name": "Perfeccionamiento de Java",
@@ -171,118 +172,158 @@
       "issuer": "Plan FIP de la Junta de Extremadura",
       "url": "https://www.juntaex.es/temas/educacion"
     }
-],
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web",
+        "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
       "name": "NodeJS",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
       ]
     },
     {
       "name": "React",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Angular",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Framework", "TypeScript"
+        "Desarrollo Web",
+        "Frontend",
+        "Framework",
+        "TypeScript"
       ]
     },
     {
       "name": "AstroJS",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "web framework"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "web framework"
       ]
     },
     {
       "name": "Php",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
       "name": "Composer",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Package Manager"
+        "Desarrollo Web",
+        "Package Manager"
       ]
     },
     {
       "name": "Symfony",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Framework PHP"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Framework PHP"
       ]
     },
     {
       "name": "Java",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Java SE"
+        "Desarrollo Web",
+        "Java SE"
       ]
     },
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "Bitbucket",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
@@ -324,7 +365,8 @@
       "name": "Jira",
       "level": "Avanzado",
       "keywords": [
-        "gestión de proyectos", "backlogs"
+        "gestión de proyectos",
+        "backlogs"
       ]
     }
   ],
@@ -338,13 +380,15 @@
       "fluency": "Advanced"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
   "projects": [
     {
       "name": "Arise",
@@ -357,8 +401,34 @@
         "TS",
         "Astro"
       ],
-      "url": "http://www.antoniohorrillo.com/",
+      "url": "https://www.antoniohorrillo.com/",
       "github": "https://github.com/antoniohh/Arise"
+    },
+    {
+      "name": "Tuanbyte",
+      "isActive": true,
+      "description": "Web del canal Tuanbyte y taller: mecánica casera con la Honda CB250 TwoFifty, bricolaje y tecnología. Catálogo interactivo estilo ferretería que se reimprime automáticamente con cada publicación.",
+      "image": "/img/tuanbyte.webp",
+      "highlights": [
+        "Web",
+        "Astro",
+        "Tailwind CSS",
+        "TS"
+      ],
+      "url": "https://tuanbyte.es/",
+      "github": "https://github.com/antoniohh/Tuanbyte"
+    },
+    {
+      "name": "YouTube Channel",
+      "isActive": true,
+      "description": "Canal de YouTube de Antonio Horrillo, donde se comparten tutoriales, demostraciones y contenido relacionado con desarrollo web, mecánica, bricolaje y tecnología.",
+      "image": "/img/youtube.webp",
+      "highlights": [
+        "YouTube",
+        "Video Content",
+        "Tutorials"
+      ],
+      "url": "https://www.youtube.com/@tuanbyte"
     },
     {
       "name": "Fulcrum",
@@ -374,10 +444,130 @@
       ]
     },
     {
-      "name": "Hoper",
+      "name": "Luz Ex",
       "isActive": true,
-      "description": "Hoper es una aplicación web escrita en Symfony para subir, gestionar y procesar vídeos para redes sociales. Facilita la subida, el seguimiento y notificación al usuario. Trabaja en paralelo con VxN (Python/ffmpeg) para la normalización de vídeo.",
-      "image": "/img/hoper.webp",
+      "description": "Aplicación web estática (SPA) para la consulta diaria y en tiempo real del precio de la luz regulado en Extremadura (Tarifa PVPC 2.0TD), con semáforo energético por horas, avance de mañana y calculadora de ahorro.",
+      "image": "/img/luz.webp",
+      "highlights": [
+        "Web",
+        "Astro",
+        "Tailwind CSS",
+        "TS",
+        "Chart.js"
+      ],
+      "url": "https://luz.antoniohorrillo.com/",
+      "github": "https://github.com/antoniohh/LuzExtremadura"
+    },
+    {
+      "name": "Combustible Ex",
+      "isActive": true,
+      "description": "Aplicación web estática (SPA) para la consulta diaria e histórica del precio del combustible en Extremadura (Gasolina 95 E5 y Gasóleo A / Diésel) en las provincias de Badajoz y Cáceres y sus 179 municipios con estación de servicio.",
+      "image": "/img/combustible.webp",
+      "highlights": [
+        "Web",
+        "Astro",
+        "Tailwind CSS",
+        "TS",
+        "Chart.js"
+      ],
+      "url": "https://combustible.antoniohorrillo.com/",
+      "github": "https://github.com/antoniohh/CombustibleExtremadura"
+    },
+    {
+      "name": "GlucoLuna",
+      "isActive": true,
+      "description": "Calendario nocturno de glucosa y guía visual de pinchazo con pluma. Reúne calendario mensual imprimible para registro de glucosa (mg/dL) y dosis, guía visual accesible y calculadora de rotación de pinchazo.",
+      "image": "/img/glucoluna.webp",
+      "highlights": [
+        "Web",
+        "Astro",
+        "Tailwind CSS",
+        "TS",
+        "Lucide"
+      ],
+      "url": "https://glucoluna.antoniohorrillo.com/",
+      "github": "https://github.com/antoniohh/GlucoLuna"
+    },
+    {
+      "name": "Embalses Ex",
+      "isActive": true,
+      "description": "Aplicación web estática (SSG con islas de React) para la consulta del estado del agua embalsada en Extremadura: nivel, capacidad, porcentaje de llenado, variación semanal e histórico de los 42 embalses monitorizados con datos del MITECO.",
+      "image": "/img/embalses.webp",
+      "highlights": [
+        "Web",
+        "Astro",
+        "React",
+        "Tailwind CSS",
+        "TS"
+      ],
+      "url": "https://embalses.antoniohorrillo.com/",
+      "github": "https://github.com/antoniohh/EmbalsesExtremadura"
+    },
+    {
+      "name": "Hooper",
+      "isActive": true,
+      "description": "Editor web de rótulos para vídeo de estilo noticiero con interfaz de workspace profesional. Composición de antetítulos, titulares y rótulos en tiempo real y exportación MP4 o WebM a 1080p procesado 100% en el navegador.",
+      "image": "/img/hooper.webp",
+      "highlights": [
+        "Web",
+        "React",
+        "Vite",
+        "Symfony",
+        "PHP",
+        "WebCodecs"
+      ],
+      "github": "https://github.com/antoniohh/Hooper"
+    },
+    {
+      "name": "Brody",
+      "isActive": true,
+      "description": "Plataforma editorial y de apoyo a la redacción y distribución del Diario HOY: optimización SEO/AEO/GEO con IA generativa (Google GenAI), generación de módulos Méthode, copys y portadas para redes sociales.",
+      "image": "/img/brody.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "Slim",
+        "React",
+        "Tailwind CSS",
+        "SQLite",
+        "GenAI"
+      ],
+      "github": "https://github.com/antoniohh/Brody"
+    },
+    {
+      "name": "NewsPaint",
+      "isActive": true,
+      "description": "Editor de imágenes con zoom, rotación, recorte, marcas de agua y mapas con tamaños de caja Méthode. IA para quitar fondos, extraer PDF, generar horóscopos. Consulta de precios de carburante y electricidad, resultados de loterías.",
+      "image": "/img/newspaint.webp",
+      "highlights": [
+        "Web",
+        "JS",
+        "TS",
+        "Angular"
+      ],
+      "github": "https://github.com/antoniohh/NEWsPAINT"
+    },
+    {
+      "name": "AudiHOY",
+      "isActive": true,
+      "description": "Plataforma analítica y panel de control del Diario HOY para centralizar el seguimiento de audiencias y redes sociales. Unifica métricas de GFK (DAM), Adobe Analytics y fuentes de tráfico con exportación y monitorización de KPIs.",
+      "image": "/img/audihoy.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "Slim",
+        "React",
+        "Tailwind CSS",
+        "SQLite",
+        "Analytics"
+      ],
+      "github": "https://github.com/antoniohh/AudiHOY"
+    },
+    {
+      "name": "Aimos",
+      "isActive": true,
+      "description": "Aimos es un gestor de servicios interno de HOY.es que proporciona autenticación para la aplicación Newspaint, APIs de datos (combustible, meteorología), y un panel de administración con estadísticas de uso.",
+      "image": "/img/aimos.webp",
       "highlights": [
         "Web",
         "PHP",
@@ -385,19 +575,6 @@
         "Symfony",
         "MySQL"
       ]
-    },
-    {
-      "name": "Voltio",
-      "isActive": true,
-      "description": "El proyecto Voltio consta de una landing pública para consultar los datos del PVPC de red eléctrica, en php con el framework Symfony 6 y una api para devolver la información en json de los módulos.",
-      "image": "/img/voltio.webp",
-      "highlights": [
-        "Web",
-        "PHP",
-        "JS",
-        "Symfony"
-      ],
-      "url": "https://www.hoy.es/economia/precio-luz/"
     },
     {
       "name": "Padme",
@@ -412,6 +589,19 @@
         "MySQL"
       ],
       "url": "https://portada.hoy.es/1720730996279"
+    },
+    {
+      "name": "Voltio",
+      "isActive": true,
+      "description": "El proyecto Voltio consta de una landing pública para consultar los datos del PVPC de red eléctrica, en php con el framework Symfony 6 y una api para devolver la información en json de los módulos.",
+      "image": "/img/voltio.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "Symfony"
+      ],
+      "url": "https://www.hoy.es/economia/precio-luz/"
     },
     {
       "name": "Ensalsa",
@@ -449,31 +639,6 @@
       "highlights": [
         "Web",
         "React",
-        "PHP",
-        "JS",
-        "Symfony",
-        "MySQL"
-      ]
-    },
-    {
-      "name": "NewsPaint",
-      "isActive": true,
-      "description": "Editor de imágenes con zoom, rotación, recorte, marcas de agua y mapas con tamaños de caja Méthode. IA para quitar fondos, extraer PDF, generar horóscopos. Consulta de precios de carburante y electricidad, resultados de loterías.",
-      "image": "/img/newspaint.webp",
-      "highlights": [
-        "Web",
-        "JS",
-        "TS",
-        "Angular"
-      ]
-    },
-    {
-      "name": "Aimos",
-      "isActive": true,
-      "description": "Aimos es un gestor de servicios interno de HOY.es que proporciona autenticación para la aplicación Newspaint, APIs de datos (combustible, meteorología), y un panel de administración con estadísticas de uso.",
-      "image": "/img/aimos.webp",
-      "highlights": [
-        "Web",
         "PHP",
         "JS",
         "Symfony",
@@ -584,7 +749,7 @@
       ],
       "url": "https://www.hoy.es/"
     },
-   {
+    {
       "name": "AutEne",
       "isActive": false,
       "description": "La aplicación consiste en una solución de cálculo del autoconsumo de energía eléctrica mediante instalaciones fotovoltaicas en viviendas aisladas de la red.",
@@ -663,32 +828,6 @@
       ],
       "url": "http://blog.antoniohorrillo.com/appdev03/",
       "github": "https://github.com/antoniohh/DevAge"
-    },
-
-    {
-      "name": "Blog",
-      "isActive": true,
-      "description": "Blog personal de Antonio Horrillo, donde se publican artículos sobre desarrollo web, programación, tecnología y otros temas de interés.",
-      "image": "/img/blog.webp",
-      "highlights": [
-        "Web",
-        "PHP",
-        "JS",
-        "WordPress"
-      ],
-      "url": "http://blog.antoniohorrillo.com/"
-    },
-    {
-      "name": "YouTube Channel",
-      "isActive": true,
-      "description": "Canal de YouTube de Antonio Horrillo, donde se comparten tutoriales, demostraciones y contenido relacionado con desarrollo web, programación y tecnología.",
-      "image": "/img/youtube.webp",
-      "highlights": [
-        "YouTube",
-        "Video Content",
-        "Tutorials"
-      ],
-      "url": "https://www.youtube.com/@tuanbyte"
     }
   ]
 }

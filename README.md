@@ -1,6 +1,6 @@
-# Arise (Versión 1.3.0) 2026
+# Arise (Versión 1.4.0) 2026
 
-![Version](https://img.shields.io/badge/version-1.3.0-blue)
+![Version](https://img.shields.io/badge/version-1.4.0-blue)
 ![Astro](https://img.shields.io/badge/Astro-7.0.2-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -19,6 +19,15 @@ Es lo que más me motiva, estudiar una disciplina que está en constante renovac
 La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
 ## 🧞 Control de Cambios
+
+### Cambios Versión v1.4.0
+
+* Incorporación de nuevos proyectos: **Tuanbyte** (`tuanbyte.es`), **Luz Extremadura**, **Combustible Extremadura**, **GlucoLuna**, **Embalses de Extremadura**, **Brody** y **AudiHOY**.
+* Reordenación completa de la sección de proyectos priorizando desarrollos activos e independientes.
+* Actualización y conversión de capturas de proyectos a formato WebP optimizado (1280×720) en `public/img/`.
+* Corrección y actualización del proyecto **Hooper** (previamente *Hoper*), reflejando su stack con React 19, Symfony, WebCodecs y PHP 8.4.
+* Retirada de la sección Blog para dar protagonismo a los sitios y utilidades web independientes.
+* Mejora del tipado TypeScript en `src/cv.d.ts` con soporte explícito para `image?: string` y `url?: string` en proyectos.
 
 ### Cambios Versión v1.3.0
 

@@ -129,8 +129,9 @@ interface Projects {
   isActive: boolean
   description: string
   highlights: Highlight
-  url: string
+  url?: string
   github?: string
+  image?: string
 }
 
 interface Interests {
