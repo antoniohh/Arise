@@ -604,6 +604,20 @@
       "url": "https://www.hoy.es/economia/precio-luz/"
     },
     {
+      "name": "Cáceres en el Foco",
+      "isActive": true,
+      "description": "Landing interactiva y portal del concurso fotográfico «Cáceres en el Foco» de Diario HOY (40º Aniversario Patrimonio de la Humanidad). Incluye gestión dinámica de fases por JSON, cuenta atrás en tiempo real y panel de administración.",
+      "image": "/img/caceresfoco.webp",
+      "highlights": [
+        "Web",
+        "PHP",
+        "JS",
+        "CSS"
+      ],
+      "url": "https://servicios.hoy.es/caceresenelfoco/",
+      "github": "https://github.com/antoniohh/CaceresFoco"
+    },
+    {
       "name": "Ensalsa",
       "isActive": true,
       "description": "Ensalsa es un backend que gestiona la base de datos de Bares y Restaurantes del proyecto Ensalsa. Almacena datos de la sociedad, valoraciones, recomendaciones y críticas.",

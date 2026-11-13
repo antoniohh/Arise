@@ -1,6 +1,6 @@
-# Arise (Versión 1.4.0) 2026
+# Arise (Versión 1.4.1) 2026
 
-![Version](https://img.shields.io/badge/version-1.4.0-blue)
+![Version](https://img.shields.io/badge/version-1.4.1-blue)
 ![Astro](https://img.shields.io/badge/Astro-7.0.2-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -19,6 +19,12 @@ Es lo que más me motiva, estudiar una disciplina que está en constante renovac
 La página está alojada en la ruta: [https://www.antoniohorrillo.com/]
 
 ## 🧞 Control de Cambios
+
+### Cambios Versión v1.4.1
+
+* Incorporación del nuevo proyecto **Cáceres en el Foco** tras *Voltio*: landing interactiva y portal del concurso fotográfico de Diario HOY con panel de administración y control dinámico de fases.
+* Renovación y actualización de las imágenes de previsualización WebP (1280×720) de los proyectos en `public/img/`.
+* Adición del asset optimizado `public/img/caceresfoco.webp`.
 
 ### Cambios Versión v1.4.0
 
